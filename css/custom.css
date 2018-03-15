@@ -1,0 +1,11 @@
+table {
+	width: 100%;
+	text-align: center;
+}
+
+th, td {
+	text-align: center;
+	padding: 4px;
+}
+
+tr:nth-child(even) {background-color: #B3FFFF};
