@@ -26,6 +26,9 @@
                         <a href="admin.php"> Admin</a>
                     </li>
                     <?php } ?>
+                    <li>
+                        <a href="showposts.php"> Your Posts</a>
+                    </li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
