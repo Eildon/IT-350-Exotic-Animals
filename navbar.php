@@ -26,6 +26,11 @@
                         <a href="admin.php"> Admin</a>
                     </li>
                     <?php } ?>
+                    <?php if ($_SESSION['admin']==true){?>
+                    <li>
+                        <a href="dbadmin.php">Database Info</a>
+                    </li>
+                    <?php } ?>
                     <li>
                         <a href="showposts.php"> Your Posts</a>
                     </li>
